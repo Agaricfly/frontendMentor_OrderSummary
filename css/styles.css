@@ -1,0 +1,133 @@
+body {
+  background: url("pattern-background-desktop.svg");
+  background-color: #E0E8FF;
+  background-position: top;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  color: #1F2F56;
+  color: hsl(223, 47%, 23%);
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: 500;
+  margin: 0;
+  text-align: center;
+}
+
+h3 {
+  font-weight: 900;
+  margin: 5% auto;
+}
+
+p {
+  color: #7280A7;
+  color: hsl(224, 23%, 55%);
+}
+
+table {
+  border-spacing: 0;
+}
+
+th {
+  padding-left: 20px;
+}
+
+td {
+  color: #7280A7;
+  color: hsl(224, 23%, 55%);
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+
+.change {
+  color: darkblue;
+  font-weight: 700;
+  padding-left: 90px;
+  text-decoration: underline;
+}
+
+.change:hover {
+  color: #9B75DB;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.top-image {
+  border-radius: 15px 15px 0 0;
+  margin: 0 auto 0 auto;
+}
+
+.top {
+  background-color: white;
+  border-radius: 15px 15px 0 0;
+  height: 220px;
+  margin: 5% auto 0 auto;
+  width: 450px;
+}
+
+.bottom {
+  background-color: white;
+  border-radius: 0 0 15px 15px;
+  margin: 0 auto;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  width: 450px;
+}
+
+.summary {
+  margin: 1rem auto;
+  text-align: center;
+  width: 300px;
+}
+
+.plan {
+  background-color: #F5F7FF;
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 10px;
+  margin: 0 auto;
+  padding-top: 1rem;
+  width: 350px;
+}
+
+.note {
+  float: left;
+  margin-left: 20px;
+}
+
+.payment {
+  background-color: #3829E0;
+  background-color: hsl(245, 75%, 52%);
+  border-radius: 10px;
+  box-shadow: -5px 20px 10px #E0E8FF;
+  box-shadow: -5px 20px 10px hsl(225, 100%, 94%);
+  color: #F5F7FF;
+  color: hsl(225, 100%, 98%);
+  margin: 20px auto 20px;
+  padding: 12px 0 12px 0;
+  width: 350px;
+}
+
+.payment:hover {
+  background-color: #766CF1;
+  cursor: pointer;
+}
+
+.cancel {
+  font-size: 12px;
+  font-weight: 700;
+  margin-top: 30px;
+}
+
+.cancel:hover {
+  color: #1F2F56;
+  color: hsl(223, 47%, 23%);
+  cursor: pointer;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3E52A3;
+  color: hsl(228, 45%, 44%);
+}
